@@ -227,7 +227,7 @@
           collapsedHeight = $element.data('collapsedHeight');
 
       if ($element.height() <= collapsedHeight) {
-        newHeight = $element.data('expandedHeight') + 'px';
+        newHeight = '100%';
         newLink = 'lessLink';
         expanded = true;
       }
